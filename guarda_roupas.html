@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 22%;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .product .discount {
+            background-color: #00c4b3;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            position: absolute;
+            margin-top: 10px;
+        }
+
+        .product .favorite {
+            color: #00c4b3;
+            font-size: 20px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        .product h3 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .product .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+
+        .product .new-price {
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .product .installments {
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #5ba067;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img height=50px weight=50px src="https://static.wikia.nocookie.net/logopedia/images/c/c1/Mappin1997b.png/revision/latest/scale-to-width-down/1000?cb=20190712031944"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mappin Chat</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Departamentos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="camas.html">Camas</a></li>
+                            <li><a class="dropdown-item" href="guarda_roupas.html">Guarda-Roupas</a></li>
+                            <li><a class="dropdown-item" href="sofas.html">Sofás</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1>Guarda Roupas   </h1>
+    <div class="container">
+        <div class="product">
+            <div class="discount">
+                23% off
+            </div>
+            <i class="far fa-heart favorite">
+            </i>
+            <img alt="Wooden wardrobe in a bedroom setting" src="https://storage.googleapis.com/a1aa/image/RsJtX1eqNlRdeklrmPQxr0TA0F6d83f6fHPmDoPqEXUL78vOB.jpg"/>
+            <h3>
+                GUARDA-ROUPA PEQUENO
+            </h3>
+            <p class="old-price">
+                De R$ 902,71
+            </p>
+            <p class="new-price">
+                Por R$ 721,33 à vista ou R$ 759,29 em até 12x de R$ 63,27 sem juros
+            </p>
+        </div>
+        <div class="product">
+            <div class="discount">
+                27% off
+            </div>
+            <i class="far fa-heart favorite">
+            </i>
+            <img alt="Modern white wardrobe in a bedroom setting" src="https://storage.googleapis.com/a1aa/image/PkG1Y6KEMHLbOlMyQ4LEgpoJC4U0nwJFdB0V6gEhwBjrzf1JA.jpg"/>
+            <h3>
+                GUARDA-ROUPA BRANCO 6 PORTAS
+            </h3>
+            <p class="old-price">
+                De R$ 617,05
+            </p>
+            <p class="new-price">
+                Por R$ 426,87 à vista ou R$ 449,34 em até 12x de R$ 37,44 sem juros
+            </p>
+        </div>
+        <div class="product">
+            <div class="discount">
+                27% off
+            </div>
+            <i class="far fa-heart favorite">
+            </i>
+            <img alt="Large wooden wardrobe with sliding doors" src="https://storage.googleapis.com/a1aa/image/s2TWafjLeljfRpi2jNVmkY5eL3gfM7mfwLqPVMN0eDACYnfrTA.jpg"/>
+            <h3>
+                GUARDA-ROUPA GRANDE
+            </h3>
+            <p class="old-price">
+                De R$ 780,52
+            </p>
+            <p class="new-price">
+                Por R$ 539,27 à vista ou R$ 567,65 em até 12x de R$ 47,30 sem juros
+            </p>
+        </div>
+        <div class="product">
+            <div class="discount">
+                27% off
+            </div>
+            <i class="far fa-heart favorite">
+            </i>
+            <img alt="Compact wardrobe in a small bedroom setting" src="https://storage.googleapis.com/a1aa/image/EpZKrzamFwrkOlzPe9LP1Kr6MwBddNC4XwHcXROnWZkXnfrTA.jpg"/>
+            <h3>
+                GUARDA-ROUPA COM GAVETAS
+            </h3>
+            <p class="old-price">
+                De R$ 380,59
+            </p>
+            <p class="new-price">
+                Por R$ 268,48 à vista ou R$ 282,61 em até 12x de R$ 23,55 sem juros
+            </p>
+        </div>
+        <div class="product">
+            <div class="discount">
+                23% off
+            </div>
+            <i class="far fa-heart favorite">
+            </i>
+            <img alt="Compact wardrobe in a small bedroom setting" src="https://storage.googleapis.com/a1aa/image/s2TWafjLeljfRpi2jNVmkY5eL3gfM7mfwLqPVMN0eDACYnfrTA.jpg"/>
+            <h3>
+                GUARDA-ROUPA GRANDE
+            </h3>
+            <p class="old-price">
+                De R$ 895,71
+            </p>
+            <p class="new-price">
+                Por R$ 686,38 à vista ou R$ 722,09 em até 12x de R$ 60,17 sem juros
+            </p>
+        </div>
+        <div class="product">
+            <div class="discount">
+                23% off
+            </div>
+            <i class="far fa-heart favorite">
+            </i>
+            <img alt="Large wooden wardrobe with sliding doors" src="https://storage.googleapis.com/a1aa/image/EpZKrzamFwrkOlzPe9LP1Kr6MwBddNC4XwHcXROnWZkXnfrTA.jpg"/>
+            <h3>
+                GUARDA-ROUPA COM GAVETAS
+            </h3>
+            <p class="old-price">
+                De R$ 600,00
+            </p>
+            <p class="new-price">
+                Por R$ 457,18 à vista ou R$ 481,24 em até 12x de R$ 40,10 sem juros
+            </p>
+        </div>
+        <div class="product">
+            <div class="discount">
+                23% off
+            </div>
+            <i class="far fa-heart favorite">
+            </i>
+            <img alt="Modern white wardrobe in a bedroom setting" src="https://storage.googleapis.com/a1aa/image/PkG1Y6KEMHLbOlMyQ4LEgpoJC4U0nwJFdB0V6gEhwBjrzf1JA.jpg"/>
+            <h3>
+                GUARDA-ROUPA BRANCO 6 PORTAS
+            </h3>
+            <p class="old-price">
+                De R$ 1.029,12
+            </p>
+            <p class="new-price">
+                Por R$ 755,98 à vista ou R$ 795,77 em até 12x de R$ 66,31 sem juros
+            </p>
+        </div>
+        <div class="product">
+            <div class="discount">
+                23% off
+            </div>
+            <i class="far fa-heart favorite">
+            </i>
+            <img alt="Wooden wardrobe in a bedroom setting" src="https://storage.googleapis.com/a1aa/image/RsJtX1eqNlRdeklrmPQxr0TA0F6d83f6fHPmDoPqEXUL78vOB.jpg"/>
+            <h3>
+                GUARDA-ROUPA PEQUENO
+            </h3>
+            <p class="old-price">
+                De R$ 1.281,81
+            </p>
+            <p class="new-price">
+                Por R$ 938,81 à vista ou R$ 1.035,59 em até 12x de R$ 86,29 sem juros
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

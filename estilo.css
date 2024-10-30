@@ -1,0 +1,31 @@
+#rodape{
+    position:sticky;
+}
+
+
+.carouselPagPrincipal{
+    width: 400px; /* Largura desejada do carrossel */
+    height: 400px; /* Altura desejada do carrossel */
+    margin: auto; /* Centraliza o carrossel na página */
+    border: 5px solid #5ba067;
+    border-radius: 5px;
+}
+
+
+.carousel-itemPP img {
+    /*width: 100%; /* Faz a imagem ocupar toda a largura do item */
+    /*height: auto; /* Mantém a proporção da imagem */
+    max-height: 100%; /* Limita a altura da imagem ao tamanho do contêiner */
+}
+
+#carouselExampleRide {
+    margin-top: 40px;
+}
+
+li {
+    text-align: center;
+}
+
+.secao {
+    text-align: center;
+}
